@@ -8,7 +8,7 @@ tableOfContents: false
 ---
 
 import { Card, CardGrid, LinkCard, LinkButton } from '@astrojs/starlight/components';
-import { ShowcaseImage, ShowcaseCTA } from 'starlight-showcases';
+import { ShowcaseImage, ShowcaseCTA, ShowcaseTwitter, ShowcaseYouTube } from 'starlight-showcases';
 import DirectoryLinks from '/src/components/DirectoryLinks.astro';
 
 import { Image } from 'astro:assets';
@@ -39,6 +39,12 @@ Polkadot **Sub0 is the flagship developer conference of the Polkadot ecosystem**
       title: 'Shwan Tabrizi (Polkadot)',
       description: 'Discover how JAM transforms Polkadot into a scalable Web3 cloud, enabling decentralized applications with unmatched flexibility and resilience.'
       },  
+      {
+      thumbnail: import('/src/assets/sub0-reset/kian-pamani-parity.webp'),
+      href: '/events/sub0/reset/kian-paimani-parity/',
+      title: 'Kian Pamani (Parity)',
+      description: 'Explore Polkadot evolution to JAM, a revolutionary framework enabling scalable, programmable execution cores with unmatched flexibility and security.'
+      },
     {
       thumbnail: import('/src/assets/sub0-reset/bryan-chen-acala.webp'),
       href: '/events/sub0/reset/bryan-chen-acala/',
@@ -149,6 +155,7 @@ Polkadot **Sub0 is the flagship developer conference of the Polkadot ecosystem**
   ]}
 />
 
+
 ## Who Should Attend Sub0 Event?
 Polkadot Sub0 is designed for a diverse audience, including:
 
@@ -156,6 +163,14 @@ Polkadot Sub0 is designed for a diverse audience, including:
 - dApp and Smart Contract Developers: Creators of decentralized applications and smart contracts looking to leverage Polkadot’s capabilities.
 - Technical Decision-Makers: Leaders and decision-makers in the tech industry seeking to understand and implement blockchain solutions.
 - Students and Developers New to Web3: Individuals who are new to the Web3 space and eager to learn from industry experts and pioneers.
+
+<ShowcaseTwitter
+  entries={[
+    'https://x.com/Polkadotsub0/status/1856279322962866542',
+  ]}
+/>
+
+ <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### Key Highlights of Polkadot Sub0
 1. Keynote Presentations from Industry Pioneers: Hear from leading figures in the blockchain and Web3 space about the latest trends, challenges, and innovations.

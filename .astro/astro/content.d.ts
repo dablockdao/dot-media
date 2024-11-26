@@ -956,6 +956,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
+"events/sub0/reset/bounty-manager.mdx": {
+	id: "events/sub0/reset/bounty-manager.mdx";
+  slug: "events/sub0/reset/bounty-manager";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
 "events/sub0/reset/branimir-rakic-origintrail.mdx": {
 	id: "events/sub0/reset/branimir-rakic-origintrail.mdx";
   slug: "events/sub0/reset/branimir-rakic-origintrail";
@@ -980,6 +987,13 @@ declare module 'astro:content' {
 "events/sub0/reset/cyrill-leutwiller-parity.mdx": {
 	id: "events/sub0/reset/cyrill-leutwiller-parity.mdx";
   slug: "events/sub0/reset/cyrill-leutwiller-parity";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"events/sub0/reset/devrel-panel.mdx": {
+	id: "events/sub0/reset/devrel-panel.mdx";
+  slug: "events/sub0/reset/devrel-panel";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
@@ -1026,9 +1040,16 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
-"events/sub0/reset/kian-pamani-parity.mdx": {
-	id: "events/sub0/reset/kian-pamani-parity.mdx";
-  slug: "events/sub0/reset/kian-pamani-parity";
+"events/sub0/reset/kian-paimani-parity.mdx": {
+	id: "events/sub0/reset/kian-paimani-parity.mdx";
+  slug: "events/sub0/reset/kian-paimani-parity";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"events/sub0/reset/krishna-singh-polkadex.mdx": {
+	id: "events/sub0/reset/krishna-singh-polkadex.mdx";
+  slug: "events/sub0/reset/krishna-singh-polkadex";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
@@ -1036,6 +1057,13 @@ declare module 'astro:content' {
 "events/sub0/reset/leemo-nova.mdx": {
 	id: "events/sub0/reset/leemo-nova.mdx";
   slug: "events/sub0/reset/leemo-nova";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"events/sub0/reset/mexy-mei-crust.mdx": {
+	id: "events/sub0/reset/mexy-mei-crust.mdx";
+  slug: "events/sub0/reset/mexy-mei-crust";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
@@ -1068,6 +1096,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
+"events/sub0/reset/sacha-lansky-webzero.mdx": {
+	id: "events/sub0/reset/sacha-lansky-webzero.mdx";
+  slug: "events/sub0/reset/sacha-lansky-webzero";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
 "events/sub0/reset/sergei-lonshakov-robonomics.mdx": {
 	id: "events/sub0/reset/sergei-lonshakov-robonomics.mdx";
   slug: "events/sub0/reset/sergei-lonshakov-robonomics";
@@ -1078,6 +1113,20 @@ declare module 'astro:content' {
 "events/sub0/reset/shawn-tabrizi-polkadot.mdx": {
 	id: "events/sub0/reset/shawn-tabrizi-polkadot.mdx";
   slug: "events/sub0/reset/shawn-tabrizi-polkadot";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"events/sub0/reset/sourav-mishra-metamui.mdx": {
+	id: "events/sub0/reset/sourav-mishra-metamui.mdx";
+  slug: "events/sub0/reset/sourav-mishra-metamui";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"events/sub0/reset/tin-chung-openguild.mdx": {
+	id: "events/sub0/reset/tin-chung-openguild.mdx";
+  slug: "events/sub0/reset/tin-chung-openguild";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
