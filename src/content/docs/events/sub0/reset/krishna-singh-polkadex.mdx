@@ -88,4 +88,39 @@ Singh broke down the lifecycle of a transaction to illustrate Substrate’s inne
 Developers venturing beyond FRAME must implement essential runtime APIs to define blockchain logic. Singh highlighted the following APIs:
 
 - **Version**: Specifies the runtime version running on the node.
-- **Initialize
+- **Initialize Block**: Prepares the runtime with the block header.
+- **Validate Transaction**: Ensures a transaction meets all requirements before execution.
+- **Apply Extrinsic**: Executes a single transaction and updates the state overlay.
+- **Finalize Block**: Commits changes from the overlay to the main state database.
+
+---
+
+## A Practical Demonstration: Building a Fungible Token Blockchain
+
+Singh showcased a custom blockchain implementation using Substrate’s minimal node template. The example featured a simple fungible token module, illustrating how core APIs and host functions work together. Key functionalities included:
+
+1. **Minting Tokens**  
+   - Host functions fetched the receiver’s balance from storage.
+   - Updated balances were written back using host functions.
+
+2. **Transferring Tokens**  
+   - Balances of sender and receiver were fetched and validated.
+   - Transactions failing balance checks returned appropriate errors without altering the state.
+
+This demonstration underscored the importance of understanding Substrate’s primitives for implementing custom logic effectively.
+
+---
+
+## Unlocking Substrate’s Potential with Blog Deep Labs
+
+Blog Deep Labs, where Krishna Singh serves as a senior blockchain engineer, has been instrumental in advancing Substrate adoption. With over 300 teams guided on Polkadot use cases and architecture, the lab combines technical expertise with real-world project delivery.
+
+Their work highlights the potential of Substrate for crafting bespoke blockchains, enabling organizations to innovate without being confined by predefined frameworks.
+
+---
+
+## Conclusion: The Future of Custom Blockchain Development
+
+Substrate's modularity and flexibility position it as a cornerstone for blockchain innovation. Moving beyond FRAME allows developers to harness Substrate’s core capabilities, crafting solutions tailored to unique requirements. Krishna Singh’s session at sub0 Reset 2024 provided a comprehensive roadmap for this journey, combining theoretical insights with practical demonstrations.
+
+As the blockchain ecosystem evolves, the ability to create deeply customized solutions will be a defining factor for success. Substrate, with its robust architecture and unparalleled flexibility, is poised to remain at the forefront of this revolution.
