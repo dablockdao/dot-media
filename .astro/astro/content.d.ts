@@ -970,6 +970,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: any
 } & { render(): Render[".mdx"] };
+"events/sub0/reset/bruno-galvao-pop.mdx": {
+	id: "events/sub0/reset/bruno-galvao-pop.mdx";
+  slug: "events/sub0/reset/bruno-galvao-pop";
+  body: string;
+  collection: "docs";
+  data: any
+} & { render(): Render[".mdx"] };
 "events/sub0/reset/bryan-chen-acala.mdx": {
 	id: "events/sub0/reset/bryan-chen-acala.mdx";
   slug: "events/sub0/reset/bryan-chen-acala";
@@ -1040,9 +1047,23 @@ declare module 'astro:content' {
   collection: "docs";
   data: any
 } & { render(): Render[".mdx"] };
+"events/sub0/reset/kian-paimani-frame.mdx": {
+	id: "events/sub0/reset/kian-paimani-frame.mdx";
+  slug: "events/sub0/reset/kian-paimani-frame";
+  body: string;
+  collection: "docs";
+  data: any
+} & { render(): Render[".mdx"] };
 "events/sub0/reset/kian-paimani-parity.mdx": {
 	id: "events/sub0/reset/kian-paimani-parity.mdx";
   slug: "events/sub0/reset/kian-paimani-parity";
+  body: string;
+  collection: "docs";
+  data: any
+} & { render(): Render[".mdx"] };
+"events/sub0/reset/kim-honoridez-energyweb.mdx": {
+	id: "events/sub0/reset/kim-honoridez-energyweb.mdx";
+  slug: "events/sub0/reset/kim-honoridez-energyweb";
   body: string;
   collection: "docs";
   data: any
@@ -1057,6 +1078,20 @@ declare module 'astro:content' {
 "events/sub0/reset/leemo-nova.mdx": {
 	id: "events/sub0/reset/leemo-nova.mdx";
   slug: "events/sub0/reset/leemo-nova";
+  body: string;
+  collection: "docs";
+  data: any
+} & { render(): Render[".mdx"] };
+"events/sub0/reset/marta-adamczyk-subquery.mdx": {
+	id: "events/sub0/reset/marta-adamczyk-subquery.mdx";
+  slug: "events/sub0/reset/marta-adamczyk-subquery";
+  body: string;
+  collection: "docs";
+  data: any
+} & { render(): Render[".mdx"] };
+"events/sub0/reset/martin-damour-saomaigames.mdx": {
+	id: "events/sub0/reset/martin-damour-saomaigames.mdx";
+  slug: "events/sub0/reset/martin-damour-saomaigames";
   body: string;
   collection: "docs";
   data: any
