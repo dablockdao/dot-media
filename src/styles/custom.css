@@ -48,13 +48,6 @@ h1 {
 	font-size: 17px !important;
 	font-family: 'Robots', sans-serif;
   }
-
-  h3 {
-    font-family: 'Unbounded Medium', sans-serif;
-	font-size: 23px !important;
-	line-height: 1.5em !important;
-	color: #9DB2BF !important;
-  }
   
 header span {
     font-family: 'Unbounded Bold', sans-serif;
@@ -593,7 +586,7 @@ header {
   
   .sidebar a {
 	text-decoration: none;
-	padding: 10px 20px;
+	padding: 5px 20px;
 	border-radius: 5px;
 	color: var(--link-color);
 	transition: background-color 0.3s, color 0.3s;
@@ -713,13 +706,7 @@ iframe:hover {
 	transition: transform 0.3s ease;
 }
 
-.sidebar a {
-	color: #ddd;
-	text-decoration: none;
-	padding: 5px 15px;
-	border-radius: 5px;
-	transition: background-color 0.3s, color 0.3s;
-}
+
 
 .sidebar a:hover {
 	background-color: rgba(255, 38, 112, 0.1);
@@ -843,8 +830,55 @@ iframe:hover {
 
 
 
+/* */
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+	width: 100%;
+	flex-wrap: wrap;
+  }
+  
+  .left-section {
+	width: 55%;
+  }
+  
+  .right-section {
+	width: 40%;
+  }
+  
+  .right-section img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+  }
+  
+
 
 @media (max-width: 768px) {
+
+	.left-section,
+	.right-section {
+	  width: 100% !important;
+	}
+  
+	.container {
+	  flex-direction: column;
+	  gap: 10px;
+	}
+
+	.hero {
+		border-radius: 15px;
+		padding: 10px 20px;
+		backdrop-filter: blur(12px);
+		transition: transform 0.3s ease, box-shadow 0.3s ease;
+	  }
+	.hero img {
+		width: 55%;
+	}
+
+
 
     iframe {
         height: 300px !important; 
@@ -871,7 +905,7 @@ h1 {
  
   h3 {
     font-family: 'Unbounded Medium', sans-serif;
-	font-size: 23px !important;
+	font-size: 19px !important;
 	line-height: 1.5em !important;
   }
 

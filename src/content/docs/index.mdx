@@ -1,5 +1,5 @@
 ---
-title: All the Polkadot Media - Events & Interviews
+title: All the Polkadot Media
 description: Discover Polkadot event talks and interviews showcasing blockchain innovations and insights.
 template: splash
 banner:
@@ -7,9 +7,9 @@ banner:
     Be ready for all the content from the Sub0 Reset!
     <a href="/events/sub0/">Check it out</a>
 hero:
-  tagline: Explore Polkadot’s top event talks and interviews, featuring insights from blockchain leaders on innovation, community, and the future of multichain.
+  tagline: Explore Polkadot’s top event talks and interviews, featuring insights from blockchain leaders on tech innovation and community.
   image:
-    file: ../../assets/media2.png
+    file: ../../assets/polkadotmedia11.png
   actions:
     - text: Events
       link: /events/
@@ -25,11 +25,45 @@ import { ShowcaseImage, ShowcaseYouTube, ShowcaseTwitter, ShowcaseProfile, Showc
 import DirectoryLinks from '/src/components/DirectoryLinks.astro';
 
 import { Image } from 'astro:assets';
+import media from '/src/assets/polkadotmedia55.png'; 
 import sub0 from '/src/assets/sub0-reset/sub0-reset.webp'; 
 import decoded from '/src/assets/decoded-2024/polkadot-decoded-2024.webp'; 
 import web3summit from '/src/assets/web3-summit/web3-summit-2024.webp'; 
 
 &nbsp;
+
+----------
+
+&nbsp;
+
+
+<div class="container">
+  <div class="left-section">
+    <a href="/interviews/">
+      <Image src={media} alt="Polkadot Media" style="width: 100%; height: auto; object-fit: cover;" />
+    </a>
+  </div>
+  <div class="right-section">
+### Events & Interviews
+
+| Event | Description |
+|-------|-------------|
+| [Sub0](/events/sub0/) | Polkadot's flagship event for developers |
+| [Decoded](/events/decoded/) | Polkadot's main event |
+| [Web3 Summit](/events/web3-summit/) | Web3 Summit |
+
+| Interview Series | Description |
+|------------------|------|
+| [Behind the Code](/interviews/behind-the-code/) | Giving voice to Polkadot key figures |
+| [Space Monkeys](/interviews/space-monkeys/) | More than 150 interviews to Polkadot buildes |
+| [Dotcast](/interviews/dotcast/) | Polkadot interviews in spanish |
+
+  </div>
+</div>
+
+
+&nbsp;
+
 
 ## Polkadot Sub0
 ----------------
@@ -72,7 +106,7 @@ import web3summit from '/src/assets/web3-summit/web3-summit-2024.webp';
 
 <ShowcaseCTA title="Do you want to add or modify any content?">
 If you want to link resources, add new talks or modify content, you can do it directly!
-  [Send a PR](https://github.com/HiDeoo/starlight-showcases).
+  [Send a PR](https://github.com/dablockdao/dot-media).
 </ShowcaseCTA>
 
 ## Web3 Summit

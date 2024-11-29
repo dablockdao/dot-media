@@ -7,15 +7,28 @@ tableOfContents: false
 ---
 
 import { Card, CardGrid, LinkCard, LinkButton } from '@astrojs/starlight/components';
-import { ShowcaseImage, ShowcaseYouTube } from 'starlight-showcases';
+import { ShowcaseImage, ShowcaseYouTube, ShowcaseProfile } from 'starlight-showcases';
 import DirectoryLinks from '/src/components/DirectoryLinks.astro';
 
 Discover Polkadot’s vibrant ecosystem through community content creators, offering educational resources, updates, and engaging media.
 
-<CardGrid>
-<LinkCard title="Space Monkeys" href="/interviews/space-monkeys/" />
-<LinkCard title="Behind the Code" href="/interviews/behind-the-code/" />
-</CardGrid>
+<ShowcaseProfile
+  entries={[
+    {
+      name: 'Space Monkeys',
+      picture: import('/src/assets/sub0logo.webp'),
+      href: '/interviews/space-monkeys/',
+      description: 'All the interviews by The Kusamarian to the Polkadot builders.',
+    },
+    {
+      name: 'Behind the Code',
+      picture: import('/src/assets/decodedlogo.webp'),
+      href: '/interviews/behind-the-code/',
+      description: 'All the latest interviews from Key Pictures with the Polkadot ecosystem founders and builders.',
+    },
+  ]}
+/>
+
 
 ## Space Monkeys podcast Episodes
 ----------------

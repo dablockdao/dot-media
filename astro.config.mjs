@@ -109,9 +109,9 @@ export default defineConfig({
 								autogenerate: { directory: 'interviews/space-monkeys' }
 							},
 							{
-								label: 'Key Pictures',
+								label: 'Behind the Code',
 								collapsed: true,
-								autogenerate: { directory: 'interviews/key-pictures' }
+								autogenerate: { directory: 'interviews/behind-the-code' }
 							},
 							{
 								label: 'Dotcast',
@@ -129,7 +129,7 @@ export default defineConfig({
 			],
 			title: 'Polkadot Ecosystem',
 			editLink: {
-				baseUrl: 'https://github.com/dablockdao/polkadotecosystem/edit/main/docs/',
+				baseUrl: 'https://github.com/dablockdao/dot-media/tree/main/',
 			},
 			customCss: [
 				'./src/styles/custom.css',
