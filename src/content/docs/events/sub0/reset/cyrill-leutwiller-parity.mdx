@@ -8,6 +8,7 @@ sidebar:
 
 import { Image } from 'astro:assets';
 import coverImage from '/src/assets/sub0-reset/cyrill-leutwiller-parity.webp';
+import { ShowcaseImage, ShowcaseProfile, ShowcaseTwitter, ShowcaseYouTube } from 'starlight-showcases';
 
 <Image src={coverImage} alt="cyrill-leutwiller-parity" />
 
@@ -18,9 +19,20 @@ This article explores the significance of **Referendum #885**, the core componen
 
 ---
 
-## The Referendum That Set It All in Motion
 
-Referendum #885, titled *“Should we allow EVM-compatible contracts on Asset Hub?”*, garnered overwhelming support from the Polkadot community. This near-unanimous approval signaled strong demand for contracts functionality on the network. In response, the contracts team at Parity Technologies embarked on **Project Revive**, creating a cutting-edge technology stack tailored to meet and exceed community expectations.
+<ShowcaseProfile
+  entries={[
+    {
+      name: 'Project Revive (Github)',
+      picture: import('/src/assets/polkadot.webp'),
+      href: 'https://github.com/paritytech/revive',
+      description: 'YUL and EVM assembly recompiler to LLVM, targetting RISC-V on PolkaVM',
+    },
+  ]}
+/>
+ ## The Referendum That Set It All in Motion
+
+[Referendum #885](https://polkadot.subsquare.io/referenda/885), titled *“Should we allow EVM-compatible contracts on Asset Hub?”*, garnered overwhelming support from the Polkadot community. This near-unanimous approval signaled strong demand for contracts functionality on the network. In response, the contracts team at Parity Technologies embarked on **Project Revive**, creating a cutting-edge technology stack tailored to meet and exceed community expectations.
 
 ---
 
@@ -46,6 +58,17 @@ Key features of PolkaVM include:
 - **High Performance**: Leveraging the RISC-V embedded instruction set, PolkaVM offers faster compilation and execution times compared to alternatives like WebAssembly or Solana’s VM.
 - **Two Execution Modes**: PolkaVM supports both interpreted and just-in-time (JIT) compilation, catering to different contract workloads.
 - **Seamless Interoperability**: Compatibility with Solidity and other languages makes PolkaVM versatile for developers.
+
+<ShowcaseProfile
+  entries={[
+    {
+      name: 'PolkaVM (Github)',
+      picture: import('/src/assets/polkadot.webp'),
+      href: 'https://github.com/paritytech/polkavm',
+      description: 'PolkaVM is a general purpose user-level RISC-V based virtual machine.',
+    },
+  ]}
+/>
 
 ### 2. **The Revive Pallet**
 The Revive Pallet is a fork of Polkadot’s existing contracts pallet, enhanced to support EVM-like functionality. It acts as the execution environment for contracts and provides:
